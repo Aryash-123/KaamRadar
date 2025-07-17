@@ -3,10 +3,10 @@ import pandas as pd
 import plotly.express as px
 
 # Load the datasets
-df_state = pd.read_csv("datasets/state_wise_jobs.csv")
-df_org = pd.read_csv("datasets/organisation_wise_jobs.csv")
-df_qual = pd.read_csv("datasets/qualification_wise_jobs.csv")
-df_sector = pd.read_csv("datasets/sector_wise_jobs.csv")
+df_state = pd.read_csv("state_wise_jobs.csv")
+df_org = pd.read_csv("organisation_wise_jobs.csv")
+df_qual = pd.read_csv("qualification_wise_jobs.csv")
+df_sector = pd.read_csv("sector_wise_jobs.csv")
 
 # Mapping for easy selection
 datasets = {
